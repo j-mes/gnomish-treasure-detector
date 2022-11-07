@@ -1,4 +1,4 @@
--- rVignette: core
+-- rVignette - Alerts the user to nearby rares or treasures to collect
 -- zork, 2018
 -- Neav (fix)
 -- Used by Howl
