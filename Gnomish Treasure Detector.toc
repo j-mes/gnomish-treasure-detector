@@ -1,5 +1,5 @@
-## Interface: 100002
-## Version: v10.0.2
+## Interface: 100207
+## Version: v10.2.7
 ## Title: Gnomish Treasure Detector
 ## Notes: Alerts the user to rares or treasures nearby.
 core.lua
