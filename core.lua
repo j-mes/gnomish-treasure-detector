@@ -27,9 +27,23 @@ local function OnVignetteAdded(self, event, id)
     local str = "|TInterface\\MINIMAP\\ObjectIconsAtlas:0:0:0:0:256:256:" ..
         (left) .. ":" .. (right) .. ":" .. (top) .. ":" .. (bottom) .. "|t"
 
+    -- Warlords of Draenor: Garrison
     if vignetteInfo.name ~= "Garrison Cache"
         and vignetteInfo.name ~= "Full Garrison Cache"
+        -- Dragonflight: Open World - NPCs
         and vignetteInfo.name ~= "Rostrum of Transformation"
+        and vignetteInfo.name ~= "Renown Quartermaster"
+        and vignetteInfo.name ~= "Bronze Timekeeper"
+        -- The War Within: Hallowfall - Keyflames
+        and vignetteInfo.name ~= "Bleak Sand Keyflame"
+        and vignetteInfo.name ~= "Duskrise Acreage Keyflame"
+        and vignetteInfo.name ~= "Fungal Field Keyflame"
+        and vignetteInfo.name ~= "Light's Blooming Keyflame"
+        and vignetteInfo.name ~= "Stillstone Pond Keyflame"
+        and vignetteInfo.name ~= "The Faded Shore Keyflame"
+        and vignetteInfo.name ~= "The Whirring Field Keyflame"
+        and vignetteInfo.name ~= "Torchlight Mine Keyflame"
+        -- The War Within: Delves - Companions
         and vignetteInfo.name ~= "Brann Bronzebeard"
         and vignetteInfo.name ~= nil
     then
