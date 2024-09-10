@@ -27,8 +27,6 @@ local function OnVignetteAdded(self, event, id)
     local str = "|TInterface\\MINIMAP\\ObjectIconsAtlas:0:0:0:0:256:256:" ..
         (left) .. ":" .. (right) .. ":" .. (top) .. ":" .. (bottom) .. "|t"
 
-    PlaySoundFile(567397)
-
     if vignetteInfo.name ~= "Garrison Cache"
         and vignetteInfo.name ~= "Full Garrison Cache"
         and vignetteInfo.name ~= "Rostrum of Transformation"
@@ -37,6 +35,7 @@ local function OnVignetteAdded(self, event, id)
     then
         RaidNotice_AddMessage(RaidWarningFrame, str .. " " .. vignetteInfo.name .. " spotted!",
             ChatTypeInfo["RAID_WARNING"])
+        PlaySoundFile(567397)
         print(str .. " " .. vignetteInfo.name, "spotted!")
         self.vignettes[id] = true
     end
