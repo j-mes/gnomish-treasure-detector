@@ -31,6 +31,7 @@ local function OnVignetteAdded(self, event, id)
 
     if vignetteInfo.name ~= "Garrison Cache"
         and vignetteInfo.name ~= "Full Garrison Cache"
+        and vignetteInfo.name ~= "Rostrum of Transformation"
         and vignetteInfo.name ~= "Brann Bronzebeard"
         and vignetteInfo.name ~= nil
     then
