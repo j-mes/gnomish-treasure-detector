@@ -22,8 +22,8 @@ It features customizable notifications, a settings menu, and quick command short
 
 ### **Manual Installation**
 
-1. **Download the Addon** from GitHub or your preferred source.
-2. **Extract the folder** into: World of Warcraft/retail/Interface/AddOns/
+1. **Download the Addon** from GitHub.
+2. **Extract the folder** into: path/to/World of Warcraft/retail/Interface/AddOns/
 3. Restart WoW and ensure the addon is **enabled** in the AddOns menu.
 
 ---
