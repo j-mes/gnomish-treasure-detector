@@ -1,5 +1,12 @@
-## Interface: 100207, 110000, 110002
-## Version: v11.0.0
+## Interface: 110100
+## Version: v11.1.0
 ## Title: Gnomish Treasure Detector
 ## Notes: Alerts the user to rares or treasures nearby.
+
+## Saved Variables
+GTD_Settings = {}
+
+debug.lua
+IgnoredVignettes.lua
+settings.lua
 core.lua
